@@ -1,7 +1,6 @@
 import { createAppContainer, createStackNavigator } from 'react-navigation'
 
 import IndexScreen from './screens/index'
-import ReduxScreen from './screens/redux-demo'
 import WebScreen from './screens/web'
 
 RouterStack = createStackNavigator({
@@ -10,9 +9,6 @@ RouterStack = createStackNavigator({
   },
   Web: {
     screen: WebScreen
-  },
-  Redux: {
-    screen: ReduxScreen
   }
 }, {
   navigationOptions: {
